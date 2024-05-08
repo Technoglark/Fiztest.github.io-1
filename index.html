@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+</head>
+<body>
+<div class="file">
+    <input type="file" id="topic" class="topic">
+</div>
+<div class="main" id="main">
+    <div id="preview"></div>
+    <h1 id="quest_text"></h1>
+    <input id="inp" class="inp">
+    <span id="ans_sost" class="sost"></span>
+    <div id="bar_border" class="bar">
+        <div id="bar" class="inner_bar"></div>
+    </div>
+<!--    <div class="buttons">-->
+<!--        <div id="ans_1" class="ans">-->
+<!--            <button id="but_1" class="answer">A) Marie Curie</button>-->
+<!--        </div>-->
+<!--        <div id="ans_2" class="ans">-->
+<!--            <button id="but_2" class="answer">B) Rosa Parks</button>-->
+<!--        </div>-->
+<!--        <div id="ans_3" class="ans">-->
+<!--            <button id="but_3" class="answer">C) Amelia Earhart</button>-->
+<!--        </div>-->
+<!--        <div id="ans_4" class="ans">-->
+<!--            <button id="but_4" class="answer">D) Jane Goodall</button>-->
+<!--        </div>-->
+<!--    </div>-->
+    <div id="buttons1" class="buttons1">
+        <button id="check" class="next">Проверить</button>
+        <button id="next" class="next">Далее</button>
+    </div>
+
+</div>
+
+<div class="answers" id="answers">
+    <div class="numb" id="numb">
+        <span class="errors" id="errors"></span>
+    </div>
+    <div class="numb" id="sost">
+        <span class="errors" id="text_sost"></span>
+    </div>
+    <div class="numb" id="your_ans">
+        <span class="errors" id="your"></span>
+    </div>
+    <div class="numb" id="right_ans">
+        <span class="errors" id="right"></span>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
